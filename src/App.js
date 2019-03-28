@@ -18,6 +18,13 @@ class App extends Component {
     win.focus();
   };
 
+  scrollTo = () => {
+    window.scrollTo({
+      top: window.innerHeight,
+      behavior: "smooth"
+    });
+  };
+
   render() {
     return (
       <div>
@@ -25,6 +32,9 @@ class App extends Component {
           <div className="banner-background">
             <div className="banner-text">
               <h2>Hi, Welcome to Rob's Portfolio</h2>
+              <h2 className="pointer center scroll" onClick={this.scrollTo}>
+                ↓
+              </h2>
             </div>
           </div>
         </div>
@@ -108,13 +118,13 @@ class App extends Component {
   }
 }
 
-const mapStateToProps = (state) => {
+const mapStateToProps = state => {
   return { projects: state.projects };
-}
+};
 
-const mapDispatchToProps = (dispatch) => {
+const mapDispatchToProps = dispatch => {
   return { getProjects: bindActionCreators(getProjects, dispatch) };
-}
+};
 
 export default withRouter(
   connect(

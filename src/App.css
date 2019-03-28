@@ -68,6 +68,25 @@
   display: flex;
 }
 
+.banner-text {
+  flex-direction: column;
+}
+
+.scroll,
+.claps {
+  transition: all 500ms;
+}
+
+.scroll:hover {
+  font-size: 3em;
+  font-size-adjust: 0.5em;
+}
+
+.claps:hover {
+  font-size: 1.5em;
+  font-size-adjust: 0.5em;
+}
+
 .pointer {
   cursor: pointer;
 }

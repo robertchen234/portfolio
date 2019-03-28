@@ -98,7 +98,7 @@ class App extends Component {
                     className="pointer button"
                     onClick={() =>
                       this.openInNewTab(
-                        "https://www.meetup.com/Movie-Night-Tuesdays-at-AMC-Take-a-Break-from-Coding/"
+                        "https://www.meetup.com/movie-nightime/"
                       )
                     }
                   >

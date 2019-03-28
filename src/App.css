@@ -52,7 +52,7 @@
 .banner-background,
 .footer-background {
   margin: auto;
-  flex-basis: 70%;
+  flex-basis: 90%;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.4em;
   display: flex;

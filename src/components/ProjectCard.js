@@ -17,6 +17,7 @@ const ProjectCard = props => {
         .split(" ")
         .join("-")} project-card-background`}
     >
+    <div className="dark-overlay">
       <div className="project-card">
         <div className={`${project.id % 2 === 1 ? "left" : "right"} details`}>
           <h2 className="center">{project.title}</h2>
@@ -73,7 +74,7 @@ const ProjectCard = props => {
               alt={project.title}
             />
           )}
-        </div>
+        </div></div>
       </div>
     </div>
   );

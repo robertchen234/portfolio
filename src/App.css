@@ -40,8 +40,9 @@
   background-image: url("/assets/bgfooter.jpg");
 }
 
-.header-footer {
+.header-footer, .dark-overlay {
   min-height: 100vh;
+  flex-basis: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -56,6 +57,10 @@
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.4em;
   display: flex;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .footer-background {

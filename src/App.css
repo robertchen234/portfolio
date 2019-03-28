@@ -52,7 +52,7 @@
 .banner-background,
 .footer-background {
   margin: auto;
-  flex-basis: 90%;
+  flex-basis: 70%;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.4em;
   display: flex;
@@ -103,6 +103,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
 }
 
 .playtime {
@@ -125,6 +126,8 @@
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.4em;
   color: #ffffff;
+  flex-basis: 90%;
+  margin: auto;
 }
 
 .left,
@@ -195,7 +198,6 @@
   }
 
   .footer-text,
-  .project-card-background,
   .project-card {
     display: flex;
   }

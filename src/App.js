@@ -78,7 +78,7 @@ class App extends Component {
                     )
                   }
                 >
-                  Meetup
+                  Movies
                 </h3>
                 <h3
                   className="pointer button"

@@ -7,9 +7,11 @@ class ProjectsContainer extends Component {
   render() {
     return (
       <div>
-        {this.props.projects.map(proj => (
-          <ProjectCard key={proj.id} project={proj} />
-        ))}
+        {this.props.projects
+          .sort((a, b) => a.id - b.id)
+          .map(proj => (
+            <ProjectCard key={proj.id} project={proj} />
+          ))}
       </div>
     );
   }

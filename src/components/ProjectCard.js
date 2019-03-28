@@ -1,4 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
+import { connect } from "react-redux";
+import { bindActionCreators } from "redux";
+import { addClap } from "../actions/projectActions";
 
 const openInNewTab = url => {
   let win = window.open(url, "_blank");
@@ -39,10 +42,20 @@ const ProjectCard = props => {
               </h4>
             ) : null}
           </span>
+          <div
+            onClick={() => props.addClap(project)}
+            className="pointer center claps"
+          >
+            <span role="img" aria-label="clap">
+              👏
+            </span>
+            <span> {project.claps}</span>
+          </div>
         </div>
         <div className={`${project.id % 2 === 1 ? "right" : "left"} asset`}>
           {project.video_url ? (
             <iframe
+              title={project.title}
               className="youtube"
               width="100%"
               height="400"
@@ -66,4 +79,15 @@ const ProjectCard = props => {
   );
 };
 
-export default ProjectCard;
+const mapStateToProps = state => {
+  return { projects: state.projects };
+};
+
+const mapDispatchToProps = dispatch => {
+  return { addClap: bindActionCreators(addClap, dispatch) };
+};
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(ProjectCard);

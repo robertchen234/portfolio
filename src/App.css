@@ -52,10 +52,14 @@
 .banner-background,
 .footer-background {
   margin: auto;
-  width: 40%;
+  flex-basis: 90%;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.4em;
   display: flex;
+}
+
+.footer-background {
+  flex-basis: 40%;
 }
 
 .banner-text,
@@ -64,11 +68,6 @@
   color: #ffffff;
   z-index: 1;
   padding: 2em;
-  display: flex;
-}
-
-.banner-text {
-  flex-direction: column;
 }
 
 .scroll,
@@ -104,7 +103,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
 }
 
 .playtime {
@@ -124,11 +122,9 @@
 }
 
 .project-card {
-  display: flex;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.4em;
   color: #ffffff;
-  margin: 16em 8em 16em 8em;
 }
 
 .left,
@@ -143,11 +139,11 @@
 }
 
 .details {
-  width: 33%;
+  flex-basis: 100%;
 }
 
 .asset {
-  width: 66%;
+  flex-basis: 100%;
 }
 
 .youtube {
@@ -187,4 +183,32 @@
 .claps {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+}
+
+@media (min-width: 900px) {
+  .banner-background {
+    flex-basis: 40%;
+  }
+
+  .banner-text {
+    flex-direction: column;
+  }
+
+  .footer-text,
+  .project-card-background,
+  .project-card {
+    display: flex;
+  }
+
+  .project-card {
+    margin: 16em 8em 16em 8em;
+  }
+
+  .details {
+    flex-basis: 33%;
+  }
+
+  .asset {
+    flex-basis: 66%;
+  }
 }

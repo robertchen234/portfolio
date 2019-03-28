@@ -42,6 +42,18 @@ class App extends Component {
         <div className="footer header-footer">
           <div className="footer-background">
             <div className="footer-text">
+              <div className="left">
+                <img
+                  src="/assets/robchen.jpg"
+                  className="icon image"
+                  alt="rob chen"
+                />
+                <p>
+                  When I'm not coding, I'm either blogging, vlogging, or hosting
+                  meetups.
+                </p>
+                <p>Connect, reach out, subscribe, follow, and hang out!</p>
+              </div>
               <div className="right">
                 <h3
                   className="pointer button"
@@ -97,18 +109,6 @@ class App extends Component {
                 >
                   robertchen234@gmail.com
                 </h3>
-              </div>
-              <div className="left">
-                <img
-                  src="/assets/robchen.jpg"
-                  className="icon image"
-                  alt="rob chen"
-                />
-                <p>
-                  When I'm not coding, I'm either blogging, vlogging, or hosting
-                  meetups.
-                </p>
-                <p>Connect, reach out, subscribe, follow, and hang out!</p>
               </div>
             </div>
           </div>

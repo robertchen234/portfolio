@@ -2,16 +2,13 @@ import React from "react";
 
 const Banner = props => {
   return (
-    <div className="banner header-footer">
-      <div className="dark-overlay">
-        <div className="banner-background">
-          <div className="banner-text">
-            <h2>Hi, Welcome to Rob's Portfolio</h2>
-            <h2 className="pointer center scroll" onClick={props.scrollTo}>
-              ↓
-            </h2>
-          </div>
-        </div>
+    <div className="banner header-break-footer">
+      <div className="banner-text scroll-text">
+        <h1>Robert</h1>
+        <h1>Chen</h1>
+        <span className="pointer center scroll" onClick={props.scrollTo}>
+          <img src="/assets/down-arrow.png" alt="down arrow" />
+        </span>
       </div>
     </div>
   );

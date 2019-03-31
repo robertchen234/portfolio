@@ -3,11 +3,6 @@ import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import { addClap } from "../actions/projectActions";
 
-const openInNewTab = url => {
-  let win = window.open(url, "_blank");
-  win.focus();
-};
-
 const ProjectCard = props => {
   const project = props.project;
   return (
@@ -29,7 +24,7 @@ const ProjectCard = props => {
             {project.demo_url ? (
               <h4
                 className="pointer button"
-                onClick={() => openInNewTab(`${project.demo_url}`)}
+                onClick={() => props.openInNewTab(`${project.demo_url}`)}
               >
                 Website
               </h4>
@@ -37,7 +32,7 @@ const ProjectCard = props => {
             {project.git_url ? (
               <h4
                 className="pointer button"
-                onClick={() => openInNewTab(`${project.git_url}`)}
+                onClick={() => props.openInNewTab(`${project.git_url}`)}
               >
                 GitHub
               </h4>
@@ -69,7 +64,7 @@ const ProjectCard = props => {
             <img
               width="100%"
               className="image pointer"
-              onClick={() => openInNewTab(`${project.demo_url}`)}
+              onClick={() => props.openInNewTab(`${project.demo_url}`)}
               src={`/assets/${project.image_url}`}
               alt={project.title}
             />

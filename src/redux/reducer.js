@@ -14,8 +14,7 @@ const reducer = (state = initialState, action) => {
           ? (project = action.payload)
           : (project = project)
       );
-      console.log(action.payload.claps);
-      console.log(updatedProjects);
+      
       return { ...state, projects: updatedProjects };
     }
     default:

@@ -3,7 +3,7 @@ import React from "react";
 const ProjectImage = props => {
   const project = props.project;
   return (
-    <div className="project-div" id="f1_container">
+    <div className="project-div" id="f1_container" onClick={() => props.toggleClick(project)}>
       <div className="flipper shadow" id="f1_card">
         <div className="front face">
           <img

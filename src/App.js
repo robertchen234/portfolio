@@ -22,9 +22,9 @@ class App extends Component {
     win.focus();
   };
 
-  scrollTo = () => {
+  scrollTo = (destination = window.innerHeight * 1.2) => {
     window.scrollTo({
-      top: window.innerHeight,
+      top: destination,
       behavior: "smooth"
     });
   };

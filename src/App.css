@@ -113,6 +113,7 @@ pre {
   background-color: rgba(26, 26, 26, 1);
   color: #ffffff;
   padding: 1em 2em 1em 2em;
+  height: 4em;
 }
 
 .nav-title {
@@ -190,7 +191,6 @@ pre {
   margin: auto;
   flex-basis: 90%;
   background-color: rgba(0, 0, 0, 0.7);
-  border-radius: 0.4em;
   display: flex;
 }
 
@@ -274,6 +274,34 @@ pre {
   display: flex;
 }
 
+.resume-space {
+  display: flex;
+  flex-direction: column;
+  order: 2;
+}
+
+.resume-area {
+  padding-bottom: 4em;
+}
+
+.resume-header {
+  order: 1;
+  margin-bottom: 2em;
+}
+
+.resume-left p {
+  font-weight: 700;
+}
+
+.resume-quote {
+  margin-top: -2em;
+  width: 60%;
+}
+
+.resume-quote p {
+  font-style: oblique;
+}
+
 .bio-left,
 .resume-left {
   order: 1;
@@ -288,6 +316,14 @@ pre {
 
 .bio-piece {
   margin-bottom: 5em;
+}
+
+.resume-piece {
+  margin-bottom: 10em;
+}
+
+.resume-right p {
+  margin-bottom: -3em;
 }
 
 .projects-area {
@@ -365,7 +401,7 @@ pre {
   display: flex;
 }
 
-.playtime {
+/* .playtime {
   background-image: url("/assets/bgplaytime.jpg");
 }
 
@@ -379,14 +415,14 @@ pre {
 
 .hyperfundit {
   background-image: url("/assets/bghyperfundit.jpg");
-}
+} */
 
 .project-card {
   background-color: rgba(0, 0, 0, 0.7);
-  border-radius: 0.4em;
   color: #ffffff;
   flex-basis: 90%;
   margin: auto;
+  padding: 2em;
 }
 
 .left,
@@ -408,12 +444,6 @@ pre {
   flex-basis: 100%;
 }
 
-.youtube {
-  border-radius: 0.4em;
-  -webkit-border-radius: 0.4em;
-  -o-border-radius: 0.4em;
-}
-
 .buttons {
   display: flex;
   text-align: center;
@@ -429,12 +459,17 @@ pre {
   transition: color 0.3s linear;
 }
 
-.button:hover {
-  color: rgba(221, 221, 221, 1);
+.surround {
+  border: 1px solid white;
 }
 
-.image {
-  border-radius: 0.4em;
+.surround:hover {
+  border: 1px solid #dddddd;
+}
+
+.button:hover {
+  color: rgba(221, 221, 221, 1);
+  border: 1px solid #dddddd;
 }
 
 .icon {
@@ -457,14 +492,16 @@ pre {
 
   .project-card {
     display: flex;
-  }
-
-  .project-card {
     margin: 16em 8em 16em 8em;
   }
 
   .details {
     flex-basis: 33%;
+  }
+
+  .details h2,
+  .details p {
+    color: white;
   }
 
   .asset {

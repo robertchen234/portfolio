@@ -6,7 +6,10 @@ const Banner = props => {
       <div className="banner-text scroll-text">
         <h1>Robert</h1>
         <h1>Chen</h1>
-        <span className="pointer center scroll" onClick={props.scrollTo}>
+        <span
+          className="pointer center scroll"
+          onClick={() => props.scrollTo()}
+        >
           <img src="/assets/down-arrow.png" alt="down arrow" />
         </span>
       </div>

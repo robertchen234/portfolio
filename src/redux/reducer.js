@@ -9,12 +9,13 @@ const reducer = (state = initialState, action) => {
       return { ...state, projects: action.payload };
     }
     case UPDATE_PROJECT: {
-      const updatedProjects = [...state.projects].map(project =>
+      const clonedProjects = [...state.projects];
+      const updatedProjects = clonedProjects.map(project =>
         project.id === action.payload.id
           ? (project = action.payload)
           : (project = project)
       );
-      
+      console.log(updatedProjects);
       return { ...state, projects: updatedProjects };
     }
     default:

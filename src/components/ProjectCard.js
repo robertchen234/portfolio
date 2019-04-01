@@ -2,6 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import { addClap } from "../actions/projectActions";
+import { Link } from "react-scroll";
 
 const ProjectCard = props => {
   const project = props.project;
@@ -13,13 +14,22 @@ const ProjectCard = props => {
         .join("-")} project-card-background`}
     >
       <div className="dark-overlay">
-        <div
-          className="project-card"
-          onClick={() => props.toggleClick(project)}
-        >
-          <div className="go-back pointer">
-            <img src="/assets/backarrow.png" alt="back arrow" />
-          </div>
+        <div id="projects" className="project-card">
+          <Link
+            activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-253}
+            duration={500}
+          >
+            <div
+              className="go-back pointer"
+              onClick={() => props.toggleClick(project)}
+            >
+              <img src="/assets/backarrow.png" alt="back arrow" />
+            </div>
+          </Link>
           <div className="right details">
             <h2 className="center">{project.title}</h2>
             <h5 className="center teaser">{project.teaser}</h5>

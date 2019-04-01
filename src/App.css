@@ -531,12 +531,16 @@ pre {
 
 @media (max-width: 900px) {
 
+  .navbar {
+    display: flex;
+  }
+
   .nav-title {
     display: none;
   }
 
-  .nav-links {
-    margin-left: -2em;
+  .nav-links a {
+    margin: auto;
   }
 
   .banner-text {

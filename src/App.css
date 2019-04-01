@@ -449,6 +449,10 @@ pre {
   flex-basis: 100%;
 }
 
+.education {
+  margin-top: -5em;
+}
+
 .buttons {
   display: flex;
   text-align: center;

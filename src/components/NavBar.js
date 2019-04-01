@@ -14,14 +14,14 @@ const NavBar = props => {
         </span>
         <span
           className="nav-link-projects"
-          onClick={() => props.scrollTo(window.innerHeight * 4.2)}
+          onClick={() => props.scrollTo(window.innerHeight * 3.5)}
           onMouseEnter={() => props.changeBanner("bannerprojects.jpg")}
         >
           <h4 className="pointer button">projects</h4>
         </span>
         <span
           className="nav-link-resume"
-          onClick={() => props.scrollTo(window.innerHeight * 6.4)}
+          onClick={() => props.scrollTo(window.innerHeight * 5.8)}
           onMouseEnter={() => props.changeBanner("bannerresume.jpg")}
         >
           <h4 className="pointer button">resume</h4>

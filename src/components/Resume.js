@@ -235,7 +235,7 @@ const Resume = props => {
               </p>
             </div>
           </div>
-          <div className="resume-area">
+          <div className="resume-area education">
             <div className="resume-left">
               <p>Stony Brook University</p>
               <div className="resume-quote">

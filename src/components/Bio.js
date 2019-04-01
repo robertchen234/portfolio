@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-scroll";
 
 class Bio extends Component {
   state = { topic: "flatiron" };
@@ -69,6 +70,14 @@ class Bio extends Component {
               </p>
             ) : null}
           </div>
+          <Link
+          activeClass="active"
+          to="bio"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+        >
           <div className="bio-right">
             <div
               className="bio-piece"
@@ -122,7 +131,7 @@ class Bio extends Component {
                 <p>Engineer</p>
               </div>
             </div>
-          </div>
+          </div></Link>
         </div>
       </div>
     );

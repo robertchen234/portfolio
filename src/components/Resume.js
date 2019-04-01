@@ -9,7 +9,15 @@ const Resume = props => {
       <div className="resume-section">
         <div className="resume-title">
           <h2>Resume</h2>
-          <p>Full stack web developer who enjoys solving complicated problems with simple solutions. Experience in JavaScript, React+Redux, Rails, and a background in Project Management. Discovered web development through co-founding a SaaS startup powered by WordPress. Proven skills in team-building and project management to increase team productivity and cross-level communication.</p>
+          <br />
+          <p>
+            Full stack web developer who enjoys solving complicated problems
+            with simple solutions. Experience in JavaScript, React+Redux, Rails,
+            and a background in Project Management. Discovered web development
+            through co-founding a SaaS startup powered by WordPress. Proven
+            skills in team-building and project management to increase team
+            productivity and cross-level communication.
+          </p>
         </div>
         <div className="resume-space">
           <div className="resume-header">

@@ -6,7 +6,7 @@ const Resume = props => {
       <div className="resume-break-background header-break-footer">
         <div className="dark-overlay" />
       </div>
-      <div className="resume-section">
+      <div id="resume" className="resume-section">
         <div className="resume-title">
           <h2>Resume</h2>
           <br />

@@ -9,7 +9,7 @@ class Bio extends Component {
 
   render() {
     return (
-      <div className="bio-section">
+      <div id="bio" className="bio-section">
         <div className="bio-quote">
           <h2>
             You know it's passion when you find that 24 hours is not enough time

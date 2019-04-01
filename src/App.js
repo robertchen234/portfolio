@@ -26,13 +26,6 @@ class App extends Component {
     win.focus();
   };
 
-  scrollTo = (destination = window.innerHeight * 1.2) => {
-    window.scrollTo({
-      top: destination,
-      behavior: "smooth"
-    });
-  };
-
   changeBanner = bannerImage => {
     this.setState({ bannerImage });
   };
@@ -40,8 +33,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <NavBar scrollTo={this.scrollTo} changeBanner={this.changeBanner} />
-        <Banner scrollTo={this.scrollTo} bannerImage={this.state.bannerImage} />
+        <NavBar changeBanner={this.changeBanner} />
+        <Banner bannerImage={this.state.bannerImage} />
         <Bio />
         <ProjectsContainer openInNewTab={this.openInNewTab} />
         <Resume />

@@ -26,7 +26,7 @@ class ProjectsContainer extends Component {
               openInNewTab={this.props.openInNewTab}
             />
           ) : (
-            <div className="projects-section">
+            <div id="projects" className="projects-section">
               <div className="projects-title">
                 <h2>Projects</h2>
               </div>

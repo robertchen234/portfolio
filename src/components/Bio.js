@@ -70,68 +70,77 @@ class Bio extends Component {
               </p>
             ) : null}
           </div>
-          <Link
-          activeClass="active"
-          to="bio"
-          spy={true}
-          smooth={true}
-          offset={0}
-          duration={500}
-        >
           <div className="bio-right">
-            <div
-              className="bio-piece"
-              onMouseEnter={() => this.changeTopic("flatiron")}
+            <Link
+              activeClass="active"
+              to="bio"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
             >
               <div
-                className={
-                  this.state.topic === "flatiron" ? "box bio-piece-text" : "bio-piece-text"
-                }
+                className="bio-piece"
+                onMouseEnter={() => this.changeTopic("flatiron")}
               >
-                <h4>Flatiron School</h4>
-                <p>Full Stack Developer</p>
+                <div
+                  className={
+                    this.state.topic === "flatiron"
+                      ? "box bio-piece-text"
+                      : "bio-piece-text"
+                  }
+                >
+                  <h4>Flatiron School</h4>
+                  <p>Full Stack Developer</p>
+                </div>
               </div>
-            </div>
-            <div
-              className="bio-piece"
-              onMouseEnter={() => this.changeTopic("startup")}
-            >
               <div
-                className={
-                  this.state.topic === "startup" ? "box bio-piece-text" : "bio-piece-text"
-                }
+                className="bio-piece"
+                onMouseEnter={() => this.changeTopic("startup")}
               >
-                <h4>Startup</h4>
-                <p>Project Manager & WordPress Developer</p>
+                <div
+                  className={
+                    this.state.topic === "startup"
+                      ? "box bio-piece-text"
+                      : "bio-piece-text"
+                  }
+                >
+                  <h4>Startup</h4>
+                  <p>Project Manager & WordPress Developer</p>
+                </div>
               </div>
-            </div>
-            <div
-              className="bio-piece"
-              onMouseEnter={() => this.changeTopic("stony")}
-            >
               <div
-                className={
-                  this.state.topic === "stony" ? "box bio-piece-text" : "bio-piece-text"
-                }
+                className="bio-piece"
+                onMouseEnter={() => this.changeTopic("stony")}
               >
-                <h4>Stony Brook University</h4>
-                <p>Project Management in Tech</p>
+                <div
+                  className={
+                    this.state.topic === "stony"
+                      ? "box bio-piece-text"
+                      : "bio-piece-text"
+                  }
+                >
+                  <h4>Stony Brook University</h4>
+                  <p>Project Management in Tech</p>
+                </div>
               </div>
-            </div>
-            <div
-              className="bio-piece"
-              onMouseEnter={() => this.changeTopic("army")}
-            >
               <div
-                className={
-                  this.state.topic === "army" ? "box bio-piece-text" : "bio-piece-text"
-                }
+                className="bio-piece"
+                onMouseEnter={() => this.changeTopic("army")}
               >
-                <h4>Army</h4>
-                <p>Engineer</p>
+                <div
+                  className={
+                    this.state.topic === "army"
+                      ? "box bio-piece-text"
+                      : "bio-piece-text"
+                  }
+                >
+                  <h4>Army</h4>
+                  <p>Engineer</p>
+                </div>
               </div>
-            </div>
-          </div></Link>
+            </Link>
+          </div>
         </div>
       </div>
     );

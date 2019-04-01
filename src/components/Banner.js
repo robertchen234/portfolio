@@ -19,9 +19,9 @@ const Banner = props => {
           <div className="banner-text scroll-text">
             <h1>Robert</h1>
             <h1>Chen</h1>
-            <span className="pointer center scroll">
+            <div className="pointer center scroll">
               <img src="/assets/down-arrow.png" alt="down arrow" />
-            </span>
+            </div>
           </div>
         </div>
       </Link>

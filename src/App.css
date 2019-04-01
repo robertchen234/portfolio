@@ -296,7 +296,7 @@ pre {
 
 .resume-quote {
   margin-top: -2em;
-  width: 60%;
+  max-width: 60%;
 }
 
 .resume-quote p {
@@ -526,5 +526,57 @@ pre {
 
   .asset {
     flex-basis: 66%;
+  }
+}
+
+@media (max-width: 900px) {
+
+  .nav-title {
+    display: none;
+  }
+
+  .nav-links {
+    margin-left: -2em;
+  }
+
+  .banner-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner-text h1 {
+    font-size: 3em;
+  }
+
+  .bio-section,
+  .projects-section, .resume-section {
+    padding: 2em;
+  }
+
+  .bio-quote, .resume-title, .resume-quote {
+    max-width: 100%;
+  }
+
+  .bio-quote h2 {
+    font-size: 1.5em;
+  }
+
+  .bio-area,
+  .projects-area, .resume-area {
+    display: block;
+  }
+
+  .project-div {
+    max-width: 100%;
+    padding-bottom: 1em;
+  }
+
+  .project-title p {
+    margin-top: -1em;
+  }
+
+  .details h2,
+  .details p {
+    color: white;
   }
 }

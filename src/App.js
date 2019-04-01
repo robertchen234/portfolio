@@ -18,7 +18,7 @@ class App extends Component {
   };
 
   componentDidMount() {
-    this.props.getProjects();
+    this.props.getProjects()
   }
 
   openInNewTab = url => {
@@ -30,7 +30,19 @@ class App extends Component {
     this.setState({ bannerImage });
   };
 
+  getProjectsInterval = () => {
+    const interval = setInterval(() => {
+      this.props.projects.length < 1
+        ? this.props.getProjects()
+        : clearInterval(interval);
+    }, 3000);
+
+    return this.props.projects.length < 1 ? interval : clearInterval(interval);
+  };
+
   render() {
+    this.getProjectsInterval();
+
     return (
       <div>
         <NavBar changeBanner={this.changeBanner} />

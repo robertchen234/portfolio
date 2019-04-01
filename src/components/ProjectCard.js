@@ -62,7 +62,9 @@ const ProjectCard = props => {
               <span role="img" aria-label="clap">
                 👏
               </span>
-              <span> {project.claps}</span>
+              <span>
+                {props.projects.find(proj => proj.id === project.id).claps}
+              </span>
             </div>
           </div>
           <div className="left asset">

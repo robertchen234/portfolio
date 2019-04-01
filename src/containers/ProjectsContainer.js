@@ -11,6 +11,7 @@ class ProjectsContainer extends Component {
     this.setState({ isClicked: !this.state.isClicked, project });
   };
 
+
   render() {
     return (
       <React.Fragment>

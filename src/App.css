@@ -77,12 +77,13 @@ h4 {
 
 p {
   font-family: Futura;
-  font-size: 0.8;
-  transform: scale(1, 1.3);
+  font-size: 1.2em;
+  /* font-size: 0.8;
+  transform: scale(1, 1.2);
+  letter-spacing: 0.09em; */
   font-style: normal;
   font-variant: normal;
   font-weight: 100;
-  letter-spacing: 0.08em;
   line-height: 1.65em;
   color: rgba(54, 54, 54, 1);
   padding-bottom: 3em;
@@ -308,6 +309,14 @@ pre {
 .resume-right {
   order: 2;
   flex: 1;
+}
+
+.bio-left p {
+  margin-bottom: -3em;
+}
+
+.bio-right {
+  text-align: right;
 }
 
 .bio-piece {

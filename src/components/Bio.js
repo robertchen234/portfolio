@@ -11,24 +11,6 @@ const Bio = props => {
       </div>
       <div className="bio-area">
         <div className="bio-left">
-          <div className="bio-piece">
-            <h4>Army</h4>
-            <p>Engineer</p>
-          </div>
-          <div className="bio-piece">
-            <h4>Stony Brook University</h4>
-            <p>Project Management in Tech</p>
-          </div>
-          <div className="bio-piece">
-            <h4>Startup</h4>
-            <p>Project Manager & WordPress Developer</p>
-          </div>
-          <div className="bio-piece">
-            <h4>Flatiron School</h4>
-            <p>Full Stack Developer</p>
-          </div>
-        </div>
-        <div className="bio-right">
           <p>
             It was in Afghanistan that I learned to lead an Engineering team in
             which directly saved the Army $400,000+ in three months and
@@ -69,6 +51,24 @@ const Bio = props => {
             have learned and will learn to drive higher impact for society as a
             software engineer.
           </p>
+        </div>
+        <div className="bio-right">
+          <div className="bio-piece">
+            <h4>Army</h4>
+            <p>Engineer</p>
+          </div>
+          <div className="bio-piece">
+            <h4>Stony Brook University</h4>
+            <p>Project Management in Tech</p>
+          </div>
+          <div className="bio-piece">
+            <h4>Startup</h4>
+            <p>Project Manager & WordPress Developer</p>
+          </div>
+          <div className="bio-piece">
+            <h4>Flatiron School</h4>
+            <p>Full Stack Developer</p>
+          </div>
         </div>
       </div>
     </div>

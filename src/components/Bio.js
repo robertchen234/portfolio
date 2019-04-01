@@ -53,12 +53,12 @@ class Bio extends Component {
               </p>
             ) : this.state.topic === "stony" ? (
               <p>
-                When I came home from Afghanistan, that same experience enabled me to complete my
-                Project Management in Tech degree with a 3.88 major GPA. Right
-                after graduating from Stony Brook University (NY), I flew to Los
-                Angeles to pursue building a crowdfunding SaaS startup to
-                provide marketing and financial resources for entrepreneurs in
-                blockchain tech.
+                When I came home from Afghanistan, that same experience enabled
+                me to complete my Project Management in Tech degree with a 3.88
+                major GPA. Right after graduating from Stony Brook University
+                (NY), I flew to Los Angeles to pursue building a crowdfunding
+                SaaS startup to provide marketing and financial resources for
+                entrepreneurs in blockchain tech.
               </p>
             ) : this.state.topic === "army" ? (
               <p>
@@ -74,29 +74,53 @@ class Bio extends Component {
               className="bio-piece"
               onMouseEnter={() => this.changeTopic("flatiron")}
             >
-              <h4>Flatiron School</h4>
-              <p>Full Stack Developer</p>
+              <div
+                className={
+                  this.state.topic === "flatiron" ? "box bio-piece-text" : "bio-piece-text"
+                }
+              >
+                <h4>Flatiron School</h4>
+                <p>Full Stack Developer</p>
+              </div>
             </div>
             <div
               className="bio-piece"
               onMouseEnter={() => this.changeTopic("startup")}
             >
-              <h4>Startup</h4>
-              <p>Project Manager & WordPress Developer</p>
+              <div
+                className={
+                  this.state.topic === "startup" ? "box bio-piece-text" : "bio-piece-text"
+                }
+              >
+                <h4>Startup</h4>
+                <p>Project Manager & WordPress Developer</p>
+              </div>
             </div>
             <div
               className="bio-piece"
               onMouseEnter={() => this.changeTopic("stony")}
             >
-              <h4>Stony Brook University</h4>
-              <p>Project Management in Tech</p>
+              <div
+                className={
+                  this.state.topic === "stony" ? "box bio-piece-text" : "bio-piece-text"
+                }
+              >
+                <h4>Stony Brook University</h4>
+                <p>Project Management in Tech</p>
+              </div>
             </div>
             <div
               className="bio-piece"
               onMouseEnter={() => this.changeTopic("army")}
             >
-              <h4>Army</h4>
-              <p>Engineer</p>
+              <div
+                className={
+                  this.state.topic === "army" ? "box bio-piece-text" : "bio-piece-text"
+                }
+              >
+                <h4>Army</h4>
+                <p>Engineer</p>
+              </div>
             </div>
           </div>
         </div>

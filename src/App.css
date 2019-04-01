@@ -147,6 +147,10 @@ pre {
   padding: 0em 1em 0em 1em;
 }
 
+.banner {
+  background-color: rgba(18, 18, 18, 1);
+}
+
 .projects-break-background {
   background-image: url("/assets/breakpoint.jpg");
 }
@@ -315,12 +319,15 @@ pre {
   margin-bottom: -3em;
 }
 
-.bio-right {
-  text-align: right;
+.bio-piece {
+  display: flex;
+  justify-content: flex-end;
 }
 
-.bio-piece {
-  margin-bottom: 1em;
+.bio-piece-text {
+  padding: 2em 2em 0em 2em;
+  text-align: right;
+  margin-bottom: -2em;
 }
 
 .resume-piece {
@@ -474,6 +481,10 @@ pre {
 
 .surround:hover {
   border: 1px solid #dddddd;
+}
+
+.box {
+  border: 1px solid rgba(18, 18, 18, 1);
 }
 
 .button:hover {

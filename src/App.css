@@ -146,10 +146,6 @@ pre {
   padding: 0em 1em 0em 1em;
 }
 
-.banner {
-  background-image: url("/assets/bannerwarp.jpg");
-}
-
 .projects-break-background {
   background-image: url("/assets/breakpoint.jpg");
 }

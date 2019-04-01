@@ -13,6 +13,10 @@ import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 
 class App extends Component {
+  state = {
+    bannerImage: "bannerbio.jpg"
+  };
+
   componentDidMount() {
     this.props.getProjects();
   }
@@ -29,11 +33,15 @@ class App extends Component {
     });
   };
 
+  changeBanner = bannerImage => {
+    this.setState({ bannerImage });
+  };
+
   render() {
     return (
       <div>
-        <NavBar scrollTo={this.scrollTo} />
-        <Banner scrollTo={this.scrollTo} />
+        <NavBar scrollTo={this.scrollTo} changeBanner={this.changeBanner} />
+        <Banner scrollTo={this.scrollTo} bannerImage={this.state.bannerImage} />
         <Bio />
         <ProjectsContainer openInNewTab={this.openInNewTab} />
         <Resume />

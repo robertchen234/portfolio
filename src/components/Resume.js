@@ -11,12 +11,7 @@ const Resume = props => {
           <h2>Resume</h2>
           <br />
           <p>
-            Full stack web developer who enjoys solving complicated problems
-            with simple solutions. Experience in JavaScript, React+Redux, Rails,
-            and a background in Project Management. Discovered web development
-            through co-founding a SaaS startup powered by WordPress. Proven
-            skills in team-building and project management to increase team
-            productivity and cross-level communication.
+          Full stack web developer who enjoys solving complicated problems with simple solutions. Experience in JavaScript, React+Redux, Rails, with a background in Project Management. Proven skills in team-building to increase cross-level communication. Known for high aptitude in adaptability and dependability in high-stress situations.
           </p>
         </div>
         <div className="resume-space">
@@ -144,9 +139,7 @@ const Resume = props => {
                 marketing with cryptocurrency.
               </p>
               <p>
-                • Contributed in bringing over 60,000 people together to a
-                series of blockchain events through our funding and marketing
-                efforts in Nigeria.
+                • Collaborated with a team to bring over 60,000 people together at a series of blockchain events through funding and marketing efforts in Nigeria.
               </p>
               <p>
                 • Enabled an app development team to build a crypto to Ghanaian
@@ -154,18 +147,13 @@ const Resume = props => {
                 and fees by over 10%.
               </p>
               <p>
-                • Helped fund and market for a team conversing with the
-                Government of the Philippines about blockchain technology and
-                the benefits that it can bring to the citizens of the
-                Philippines.
+                • Managed the funding and marketing for a team conversing with the Government of the Philippines about blockchain technology and the benefits that it can bring to Filipino citizens.
               </p>
               <p>
-                • Lead a team of five to become the top crowdfunding brand on
-                Steemit.com which is a social media blockchain platform.
+                • Led a team of five to become the top crowdfunding brand on Steemit.com, a social media blockchain platform.
               </p>
               <p>
-                • Highlighted by news outlets from China, Korea, Nigeria, and
-                top influencers on the Steemit platform.
+                • HyperFundIt was highlighted by news outlets from China, Korea, Nigeria, and top influencers on Steemit. 
               </p>
             </div>
           </div>
@@ -185,14 +173,10 @@ const Resume = props => {
             </div>
             <div className="resume-right">
               <p>
-                • Saved the company $400,000+ in three months by streamlining
-                the workflow process which allowed the team to complete the
-                project three weeks ahead of schedule.
+                • Saved the company $400,000+ in three months by streamlining the workflow process allowing the team to complete the project three weeks ahead of schedule.
               </p>
               <p>
-                • Resolved complex administrative problems, saved valuable time
-                by changing communication protocols to increase productivity by
-                50% in the company.
+                • Resolved complex administrative problems, saved valuable time by changing communication protocols to increase productivity by 50%.
               </p>
               <p>
                 • Developed and formalized internal processes, including
@@ -201,13 +185,11 @@ const Resume = props => {
               </p>
               <p>
                 • Awarded the Army Commendation Medal for the deconstruction of
-                10+ hostile sites and recovering $3,000,000 in material costs
-                amidst chaos.
+                10+ hostile sites and recovering $3,000,000 in material costs.
               </p>
               <p>
                 • Consistently performed in the top 10% on every assignment
-                throughout eight different locations, known for high aptitude in
-                adaptability and dependability in high-stress situations..
+                throughout eight different locations.
               </p>
             </div>
           </div>

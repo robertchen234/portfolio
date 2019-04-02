@@ -54,7 +54,7 @@ const Resume = props => {
               <p>Welcome Board</p>
               <div className="resume-quote">
                 <p>
-                  Allows more senior students to welcome and post advice/tips
+                  Allows senior students to welcome and post advice/tips
                   for junior students upon entering each new mod.
                 </p>
               </div>
@@ -84,8 +84,7 @@ const Resume = props => {
               <p>Code Code Revolution</p>
               <div className="resume-quote">
                 <p>
-                  Tests how fast and accurately a user can type code and compete
-                  with other players on the leaderboard.
+                Tests the speed and accuracy of a user’s code typing ability while they compete with other players on the leaderboard.
                 </p>
               </div>
             </div>
@@ -150,7 +149,7 @@ const Resume = props => {
                 • Managed the funding and marketing for a team conversing with the Government of the Philippines about blockchain technology and the benefits that it can bring to Filipino citizens.
               </p>
               <p>
-                • Led a team of five to become the top crowdfunding brand on Steemit.com, a social media blockchain platform.
+                • Led a team of five to become the top crowdfunding brand on Steemit.com - a social media blockchain platform.
               </p>
               <p>
                 • HyperFundIt was highlighted by news outlets from China, Korea, Nigeria, and top influencers on Steemit. 

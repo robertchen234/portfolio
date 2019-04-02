@@ -191,7 +191,7 @@ const Resume = props => {
               </p>
               <p>
                 • Resolved complex administrative problems, saved valuable time
-                by implementing communication tools to increase productivity by
+                by changing communication protocols to increase productivity by
                 50% in the company.
               </p>
               <p>

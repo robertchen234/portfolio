@@ -190,7 +190,7 @@ pre {
 .banner-background,
 .footer-background {
   margin: auto;
-  flex-basis: 90%;
+  flex-basis: 40%;
   background-color: rgba(0, 0, 0, 0.7);
   display: flex;
 }
@@ -207,6 +207,7 @@ pre {
   margin: auto;
   color: #ffffff;
   display: flex;
+  flex-direction: column;
 }
 
 .banner-text h1 {
@@ -441,11 +442,8 @@ pre {
 } */
 
 .project-card {
-  background-color: rgba(0, 0, 0, 0.7);
-  color: #ffffff;
-  flex-basis: 90%;
-  margin: auto;
-  padding: 2em;
+  display: flex;
+  margin: 16em 8em 16em 8em;
 }
 
 .left,
@@ -460,11 +458,11 @@ pre {
 }
 
 .details {
-  flex-basis: 100%;
+  flex-basis: 33%;
 }
 
 .asset {
-  flex-basis: 100%;
+  flex-basis: 66%;
 }
 
 .education {
@@ -512,7 +510,15 @@ pre {
   margin-bottom: 0.5em;
 }
 
-@media (min-width: 900px) {
+@media (max-width: 900px) {
+  html,
+  body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+
   p {
     font-family: Futura;
     font-size: 1.2em;
@@ -521,48 +527,12 @@ pre {
     letter-spacing: 0.09em; */
     font-style: normal;
     font-variant: normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 1.65em;
     color: rgba(54, 54, 54, 1);
     padding-bottom: 3em;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
-
-  .banner-background {
-    flex-basis: 40%;
-  }
-
-  .banner-text {
-    flex-direction: column;
-  }
-
-  .project-card {
-    display: flex;
-    margin: 16em 8em 16em 8em;
-  }
-
-  .details {
-    flex-basis: 33%;
-  }
-
-  .details h2,
-  .details p {
-    color: white;
-  }
-
-  .asset {
-    flex-basis: 66%;
-  }
-}
-
-@media (max-width: 900px) {
-  html,
-  body {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
   }
 
   .navbar {
@@ -575,6 +545,10 @@ pre {
 
   .nav-links a {
     margin: auto;
+  }
+
+  .banner-background {
+    flex-basis: 90%;
   }
 
   .banner-text {
@@ -619,6 +593,10 @@ pre {
     margin-top: -1em;
   }
 
+  .details {
+    flex-basis: 100%;
+  }
+
   .details h2,
   .details p {
     color: white;
@@ -638,5 +616,17 @@ pre {
     padding: 2em 2em 0em 2em;
     text-align: left;
     margin-bottom: -2em;
+  }
+
+  .project-card {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    flex-basis: 90%;
+    margin: auto;
+    padding: 2em;
+  }
+
+  .asset {
+    flex-basis: 100%;
   }
 }

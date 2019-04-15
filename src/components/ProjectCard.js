@@ -39,20 +39,22 @@ const ProjectCard = props => {
             <p>Technology Stack: {project.tech_stack}</p>
             <span className="buttons">
               {project.demo_url ? (
-                <h4
-                  className="pointer button surround"
-                  onClick={() => props.openInNewTab(`${project.demo_url}`)}
+                <a
+                  href={`${project.demo_url}`}
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
-                  Website
-                </h4>
+                  <h4 className="pointer button surround">Website</h4>
+                </a>
               ) : null}
               {project.git_url ? (
-                <h4
-                  className="pointer button surround"
-                  onClick={() => props.openInNewTab(`${project.git_url}`)}
+                <a
+                  href={`${project.git_url}`}
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
-                  GitHub
-                </h4>
+                  <h4 className="pointer button surround">GitHub</h4>
+                </a>
               ) : null}
             </span>
             <div
@@ -80,13 +82,18 @@ const ProjectCard = props => {
                 allowfullscreen
               />
             ) : (
-              <img
-                width="100%"
-                className="image pointer"
-                onClick={() => props.openInNewTab(`${project.demo_url}`)}
-                src={`/assets/${project.image_url}`}
-                alt={project.title}
-              />
+              <a
+                href={`${project.demo_url}`}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  width="100%"
+                  className="image pointer"
+                  src={`/assets/${project.image_url}`}
+                  alt={project.title}
+                />
+              </a>
             )}
           </div>
         </div>

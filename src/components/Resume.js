@@ -11,7 +11,12 @@ const Resume = props => {
           <h2>Resume</h2>
           <br />
           <p>
-          Full stack web developer who enjoys solving complicated problems with simple solutions. Experience in JavaScript, React+Redux, Rails, with a background in Project Management. Proven skills in team-building to increase cross-level communication. Known for high aptitude in adaptability and dependability in high-stress situations.
+            Full stack web developer who enjoys solving complicated problems
+            with simple solutions. Experience in JavaScript, React+Redux, Rails,
+            with a background in Project Management. Proven skills in
+            team-building to increase cross-level communication. Known for high
+            aptitude in adaptability and dependability in high-stress
+            situations.
           </p>
         </div>
         <div className="resume-space">
@@ -54,8 +59,8 @@ const Resume = props => {
               <p>Welcome Board</p>
               <div className="resume-quote">
                 <p>
-                  Allows senior students to welcome and post advice/tips
-                  for junior students upon entering each new mod.
+                  Allows senior students to welcome and post advice/tips for
+                  junior students upon entering each new mod.
                 </p>
               </div>
             </div>
@@ -84,7 +89,8 @@ const Resume = props => {
               <p>Code Code Revolution</p>
               <div className="resume-quote">
                 <p>
-                Tests the speed and accuracy of a user’s code typing ability while they compete with other players on the leaderboard.
+                  Tests the speed and accuracy of a user’s code typing ability
+                  while they compete with other players on the leaderboard.
                 </p>
               </div>
             </div>
@@ -138,7 +144,9 @@ const Resume = props => {
                 marketing with cryptocurrency.
               </p>
               <p>
-                • Collaborated with a team to bring over 60,000 people together at a series of blockchain events through funding and marketing efforts in Nigeria.
+                • Collaborated with a team to bring over 60,000 people together
+                at a series of blockchain events through funding and marketing
+                efforts in Nigeria.
               </p>
               <p>
                 • Enabled an app development team to build a crypto to Ghanaian
@@ -146,13 +154,17 @@ const Resume = props => {
                 and fees by over 10%.
               </p>
               <p>
-                • Managed the funding and marketing for a team conversing with the Government of the Philippines about blockchain technology and the benefits that it can bring to Filipino citizens.
+                • Managed the funding and marketing for a team conversing with
+                the Government of the Philippines about blockchain technology
+                and the benefits that it can bring to Filipino citizens.
               </p>
               <p>
-                • Led a team of five to become the top crowdfunding brand on Steemit.com - a social media blockchain platform.
+                • Led a team of five to become the top crowdfunding brand on
+                Steemit.com - a social media blockchain platform.
               </p>
               <p>
-                • HyperFundIt was highlighted by news outlets from China, Korea, Nigeria, and top influencers on Steemit. 
+                • HyperFundIt was highlighted by news outlets from China, Korea,
+                Nigeria, and top influencers on Steemit.
               </p>
             </div>
           </div>
@@ -172,10 +184,14 @@ const Resume = props => {
             </div>
             <div className="resume-right">
               <p>
-                • Saved the company $400,000+ in three months by streamlining the workflow process allowing the team to complete the project three weeks ahead of schedule.
+                • Saved the company $400,000+ in three months by streamlining
+                the workflow process allowing the team to complete the project
+                three weeks ahead of schedule.
               </p>
               <p>
-                • Resolved complex administrative problems, saved valuable time by changing communication protocols to increase productivity by 50%.
+                • Resolved complex administrative problems, saved valuable time
+                by changing communication protocols to increase productivity by
+                50%.
               </p>
               <p>
                 • Developed and formalized internal processes, including
@@ -233,6 +249,14 @@ const Resume = props => {
             </div>
           </div>
         </div>
+        <a
+          className="resume-download"
+          href="/assets/RobertChenResume.pdf"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <h5 className="pointer button">Download Resume</h5>
+        </a>
       </div>
     </React.Fragment>
   );

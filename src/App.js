@@ -21,11 +21,6 @@ class App extends Component {
     this.props.getProjects()
   }
 
-  openInNewTab = url => {
-    let win = window.open(url, "_blank");
-    win.focus();
-  };
-
   changeBanner = bannerImage => {
     this.setState({ bannerImage });
   };
@@ -48,9 +43,9 @@ class App extends Component {
         <NavBar changeBanner={this.changeBanner} />
         <Banner bannerImage={this.state.bannerImage} />
         <Bio />
-        <ProjectsContainer openInNewTab={this.openInNewTab} />
+        <ProjectsContainer />
         <Resume />
-        <Footer openInNewTab={this.openInNewTab} />
+        <Footer />
       </div>
     );
   }

@@ -3,60 +3,53 @@ import React from "react";
 const Footer = props => {
   return (
     <div className="footer-section">
-    <div className="footer-top">
-              <h5
-                className="pointer button"
-                onClick={() =>
-                  props.openInNewTab("https://github.com/robertchen234")
-                }
-              >
-                GitHub
-              </h5>
-              <h5
-                className="pointer button"
-                onClick={() =>
-                  props.openInNewTab(
-                    "https://www.linkedin.com/in/robertchen234/"
-                  )
-                }
-              >
-                LinkedIn
-              </h5>
-              <h5
-                className="pointer button"
-                onClick={() =>
-                  props.openInNewTab("https://medium.com/@robertchen234")
-                }
-              >
-                Medium
-              </h5>
-              <h5
-                className="pointer button"
-                onClick={() =>
-                  props.openInNewTab(
-                    "https://www.youtube.com/channel/UCHXw3WolW7kEZvExoA3P3VQ"
-                  )
-                }
-              >
-                YouTube
-              </h5>
-              <h5
-                className="pointer button"
-                onClick={() =>
-                  props.openInNewTab("https://www.meetup.com/movie-nightime/")
-                }
-              >
-                Movies
-              </h5></div><div className="footer-bottom">
-              <h5
-                className="pointer button"
-                onClick={() =>
-                  props.openInNewTab("mailto:robertchen234@gmail.com")
-                }
-              >
-                robertchen234@gmail.com
-              </h5></div>
-            </div>
+      <div className="footer-top">
+        <a
+          href="https://github.com/robertchen234"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <h5 className="pointer button">GitHub</h5>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/robertchen234/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <h5 className="pointer button">LinkedIn</h5>
+        </a>
+        <a
+          href="https://medium.com/@robertchen234"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <h5 className="pointer button">Medium</h5>
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UCHXw3WolW7kEZvExoA3P3VQ"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <h5 className="pointer button">YouTube</h5>
+        </a>
+        <a
+          href="https://www.meetup.com/movie-nightime/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <h5 className="pointer button">Movies</h5>
+        </a>
+      </div>
+      <div className="footer-bottom">
+        <a
+          href="mailto:robertchen234@gmail.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <h5 className="pointer button">robertchen234@gmail.com</h5>
+        </a>
+      </div>
+    </div>
   );
 };
 

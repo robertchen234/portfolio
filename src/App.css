@@ -275,6 +275,17 @@ pre {
   display: flex;
 }
 
+.resume-download {
+  order: 3;
+  margin: auto;
+}
+
+.resume-download h5 {
+  color: black;
+  font-size: 1.3em;
+  border: 1px solid black;
+}
+
 .resume-space {
   display: flex;
   flex-direction: column;

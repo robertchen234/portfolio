@@ -488,8 +488,16 @@ pre {
   border: 1px solid white;
 }
 
+.dark-surround {
+  border: 1px solid black;
+}
+
 .surround:hover {
   border: 1px solid #dddddd;
+}
+
+.dark-surround:hover {
+  border: 1px solid white;
 }
 
 .box {
@@ -508,6 +516,10 @@ pre {
 .claps {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+}
+
+.black {
+  color: black;
 }
 
 @media (max-width: 900px) {

@@ -44,7 +44,9 @@ const ProjectCard = props => {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <h4 className="pointer button surround">Website</h4>
+                  <h4 className="pointer button dark-surround black">
+                    Website
+                  </h4>
                 </a>
               ) : null}
               {project.git_url ? (
@@ -53,7 +55,7 @@ const ProjectCard = props => {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <h4 className="pointer button surround">GitHub</h4>
+                  <h4 className="pointer button dark-surround black">GitHub</h4>
                 </a>
               ) : null}
             </span>
@@ -64,7 +66,7 @@ const ProjectCard = props => {
               <span role="img" aria-label="clap">
                 👏
               </span>
-              <span>
+              <span className="black">
                 {props.projects.find(proj => proj.id === project.id).claps}
               </span>
             </div>

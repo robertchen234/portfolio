@@ -46,7 +46,7 @@ class ProjectsContainer extends Component {
           "This game tests how fast a player can type code and compete on the leaderboard. I had the joy of doing a live demo and someone brought over their own custom keyboard, it got intense!",
         year: 2018,
         tech_stack: "vanillaJS, Ruby on Rails, SQLite3, CSS",
-        demo_url: null,
+        demo_url: "https://codecoderevolution.netlify.com/",
         git_url:
           "https://github.com/robertchen234/code-code-revolution-frontend",
         video_url: "https://www.youtube.com/embed/tgPy_OV-nLM",

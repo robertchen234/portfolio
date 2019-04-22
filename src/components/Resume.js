@@ -96,16 +96,16 @@ const Resume = props => {
             </div>
             <div className="resume-right">
               <p>
-                • Manipulates the DOM with Vanilla Javascript to instantaneously
-                render information to the user.
+                • Integrates blockchain authentication from BlockStack and connects the user’s unique ID with Rails backend.
               </p>
-              <p>• Sends AJAX requests to allow for a quick user experience.</p>
-              <p>
-                • Follows MVC guidelines and demonstrate full CRUD capabilities.
-              </p>
+              <p>• Manipulates the DOM with Vanilla Javascript to instantaneously
+                render information to the user.</p>
               <p>
                 • Utilizes Active Model Serializers to format JSON while storing
                 and exchanging user data.
+              </p>
+              <p>
+                • Follows MVC guidelines and demonstrate full CRUD capabilities.
               </p>
             </div>
           </div>

@@ -149,6 +149,7 @@ pre {
 
 .banner {
   background-color: rgba(18, 18, 18, 1);
+  height: 100vh;
 }
 
 .projects-break-background {
@@ -178,7 +179,7 @@ pre {
 
 .header-break-footer,
 .dark-overlay {
-  min-height: 100vh;
+  min-height: 60vh;
   flex-basis: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -236,10 +237,10 @@ pre {
   font-size-adjust: 0.5em;
 }
 
-.claps:hover {
+/* .claps:hover {
   font-size: 1.5em;
   font-size-adjust: 0.5em;
-}
+} */
 
 .pointer {
   cursor: pointer;
@@ -505,8 +506,9 @@ pre {
 }
 
 .button:hover {
-  color: rgba(221, 221, 221, 1);
-  border: 1px solid #dddddd;
+  color: white;
+  border: 1px solid white;
+  background-color: black;
 }
 
 .icon {

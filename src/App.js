@@ -30,7 +30,7 @@ class App extends Component {
       this.props.projects.length < 1
         ? this.props.getProjects()
         : clearInterval(interval);
-    }, 3000);
+    }, 2000);
 
     return this.props.projects.length < 1 ? interval : clearInterval(interval);
   };

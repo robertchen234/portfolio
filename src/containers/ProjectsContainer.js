@@ -34,7 +34,7 @@ class ProjectsContainer extends Component {
           "React, Javascript, Ruby on Rails, PostgreSQL, CSS, Heroku, and Netlify",
         demo_url: "https://welcome-board.netlify.com",
         git_url: "https://github.com/robertchen234/welcome-board-frontend",
-        video_url: null,
+        video_url: "https://youtu.be/gI5Pcxb1uSs",
         image_url: "welcomeboard.png",
         claps: 30
       },
@@ -64,7 +64,7 @@ class ProjectsContainer extends Component {
           "React, Javascript, Ruby on Rails, PostgreSQL, CSS with Flexbox, Heroku, and Netlify",
         demo_url: "https://playtime-beta.netlify.com",
         git_url: "https://github.com/robertchen234/playtime-frontend",
-        video_url: null,
+        video_url: "https://youtu.be/xCiKWJhtGRQ",
         image_url: "playtime.png",
         claps: 45
       }

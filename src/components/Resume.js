@@ -96,6 +96,9 @@ const Resume = props => {
             </div>
             <div className="resume-right">
               <p>
+                • Presented this app for Playcrafting Expo at Microsoft, the line went around the block at the center of Times Square.
+              </p>
+              <p>
                 • Integrates blockchain authentication from BlockStack and connects the user’s unique ID with Rails backend.
               </p>
               <p>• Manipulates the DOM with Vanilla Javascript to instantaneously
@@ -103,9 +106,6 @@ const Resume = props => {
               <p>
                 • Utilizes Active Model Serializers to format JSON while storing
                 and exchanging user data.
-              </p>
-              <p>
-                • Follows MVC guidelines and demonstrate full CRUD capabilities.
               </p>
             </div>
           </div>

@@ -243,7 +243,7 @@ const Resume = props => {
         </div>
         <a
           className="resume-download"
-          href="/assets/RobertChenResume.pdf"
+          href="RobertChenResume.pdf"
           rel="noopener noreferrer"
           target="_blank"
         >

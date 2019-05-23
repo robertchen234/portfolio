@@ -159,10 +159,6 @@ const Resume = props => {
                 and the benefits that it can bring to Filipino citizens.
               </p>
               <p>
-                • Led a team of five to become the top crowdfunding brand on
-                Steemit.com - a social media blockchain platform.
-              </p>
-              <p>
                 • HyperFundIt was highlighted by news outlets from China, Korea,
                 Nigeria, and top influencers on Steemit.
               </p>
@@ -201,10 +197,6 @@ const Resume = props => {
               <p>
                 • Awarded the Army Commendation Medal for the deconstruction of
                 10+ hostile sites and recovering $3,000,000 in material costs.
-              </p>
-              <p>
-                • Consistently performed in the top 10% on every assignment
-                throughout eight different locations.
               </p>
             </div>
           </div>

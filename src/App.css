@@ -643,4 +643,26 @@ pre {
   .asset {
     flex-basis: 100%;
   }
+
+  .project-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .asset {
+    order: 1;
+  }
+
+  .details {
+    order: 2;
+  }
+
+  .dark-surround,
+  .claps .black {
+    color: white;
+  }
+
+  .dark-surround {
+    border-color: white;
+  }
 }

@@ -28,9 +28,7 @@ const Resume = props => {
               <p>PlayTime</p>
               <div className="resume-quote">
                 <p>
-                  Social media platform that pushes for more engagement by
-                  introducing game concepts such as exp, levels, and energy
-                  limits.
+                Social media and events platform that I built to organize movie meetups that I host for local developers.
                 </p>
               </div>
             </div>
@@ -139,14 +137,7 @@ const Resume = props => {
             </div>
             <div className="resume-right">
               <p>
-                • Spoke at a blockchain conference about crowdfunding and the
-                opportunities that can arise from integrating influencer
-                marketing with cryptocurrency.
-              </p>
-              <p>
-                • Collaborated with a team to bring over 60,000 people together
-                at a series of blockchain events through funding and marketing
-                efforts in Nigeria.
+                • Directly impact my client’s ability to bring over 60,000 people together at a series of blockchain events through funding and marketing efforts in Nigeria.
               </p>
               <p>
                 • Enabled an app development team to build a crypto to Ghanaian
@@ -154,13 +145,10 @@ const Resume = props => {
                 and fees by over 10%.
               </p>
               <p>
-                • Managed the funding and marketing for a team conversing with
-                the Government of the Philippines about blockchain technology
-                and the benefits that it can bring to Filipino citizens.
+                • Spearheaded funding and marketing for a team conversing with the Government of the Philippines about blockchain technology resulting in bringing thousands of Filipino citizens onboard.
               </p>
               <p>
-                • HyperFundIt was highlighted by news outlets from China, Korea,
-                Nigeria, and top influencers on Steemit.
+                • Led HyperFundIt to be highlighted by news outlets from China, Korea, Nigeria, and top influencers on Steemit. 
               </p>
             </div>
           </div>

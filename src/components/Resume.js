@@ -12,11 +12,9 @@ const Resume = props => {
           <br />
           <p>
             Full stack web developer who enjoys solving complicated problems
-            with simple solutions. Experience in JavaScript, React+Redux, Rails,
-            with a background in Project Management. Proven skills in
-            team-building to increase cross-level communication. Known for high
-            aptitude in adaptability and dependability in high-stress
-            situations.
+            with simple solutions. Experience in JavaScript, React, Redux, Ruby
+            on Rails, with a background in Project Management. Proven skills in
+            team-building to increase cross-level communication.
           </p>
         </div>
         <div className="resume-space">
@@ -28,26 +26,27 @@ const Resume = props => {
               <p>PlayTime</p>
               <div className="resume-quote">
                 <p>
-                Social media and events platform that I built to organize movie meetups that I host for local developers.
+                  Social media and events platform built to organize movie
+                  meetups that I host for local developers.
                 </p>
               </div>
             </div>
             <div className="resume-right">
               <p>
                 • Solidifies React fundamentals while handling forms and passing
-                information from component to component.
+                information between components.
               </p>
               <p>
-                • Deepens understanding and usage of AJAX from chaining fetch
-                requests merged with conditional logic.
+                • Deepens understanding and usage of asynchronous Javascript
+                from fetch requests and promises.
               </p>
               <p>
                 • Strengthens usage of JSON Web Tokens and BCrypt for
                 encryption.
               </p>
               <p>
-                • Applies authorization, authentication, and validation
-                protocols.
+                • ​Applies Flexbox, transitions, animations, and more custom
+                CSS.
               </p>
             </div>
           </div>
@@ -57,14 +56,14 @@ const Resume = props => {
               <p>Welcome Board</p>
               <div className="resume-quote">
                 <p>
-                  Allows senior students to welcome and post advice/tips for
-                  junior students upon entering each new mod.
+                  Al​lows senior students to welcome and post advice/tips for
+                  junior students at Flatiron School​.
                 </p>
               </div>
             </div>
             <div className="resume-right">
               <p>
-                • Collaborate with two other team members to build a React
+                • Worked with two other team members to build a React
                 application that solidifies React principles.
               </p>
               <p>
@@ -94,16 +93,20 @@ const Resume = props => {
             </div>
             <div className="resume-right">
               <p>
-                • Presented this app for Playcrafting Expo at Microsoft, the line went around the block at the center of Times Square.
+                • Presented this app for Playcrafting Expo at Microsoft which
+                consisted of over 2,000 attendees with a high approval rate.
               </p>
-              <p>
-                • Integrates blockchain authentication from BlockStack and connects the user’s unique ID with Rails backend.
-              </p>
-              <p>• Manipulates the DOM with Vanilla Javascript to instantaneously
-                render information to the user.</p>
               <p>
                 • Utilizes Active Model Serializers to format JSON while storing
                 and exchanging user data.
+              </p>
+              <p>
+                • ​Integrates blockchain authentication from BlockStack and
+                connects with Rails API.
+              </p>
+              <p>
+                • Enhances understanding of how Javascript and CSS affects the
+                DOM.
               </p>
             </div>
           </div>
@@ -137,7 +140,13 @@ const Resume = props => {
             </div>
             <div className="resume-right">
               <p>
-                • Directly impact my client’s ability to bring over 60,000 people together at a series of blockchain events through funding and marketing efforts in Nigeria.
+                • Developed prototype on Squarespace, then WordPress with HTML,
+                Javascript, CSS, and plugins driving traffic up 300%.
+              </p>
+              <p>
+                • Directly impact my client’s ability to bring over 60,000
+                people together at a series of blockchain events through funding
+                and marketing efforts in Nigeria.
               </p>
               <p>
                 • Enabled an app development team to build a crypto to Ghanaian
@@ -145,10 +154,9 @@ const Resume = props => {
                 and fees by over 10%.
               </p>
               <p>
-                • Spearheaded funding and marketing for a team conversing with the Government of the Philippines about blockchain technology resulting in bringing thousands of Filipino citizens onboard.
-              </p>
-              <p>
-                • Led HyperFundIt to be highlighted by news outlets from China, Korea, Nigeria, and top influencers on Steemit. 
+                • Spearheaded funding and marketing for a team conversing with
+                the Government of the Philippines about blockchain technology
+                resulting in bringing thousands of Filipino citizens onboard.
               </p>
             </div>
           </div>
@@ -173,18 +181,17 @@ const Resume = props => {
                 three weeks ahead of schedule.
               </p>
               <p>
-                • Resolved complex administrative problems, saved valuable time
-                by changing communication protocols to increase productivity by
-                50%.
-              </p>
-              <p>
                 • Developed and formalized internal processes, including
                 training materials to support team growth. Lead recruits to 100%
                 graduation rate, which hasn't happened in 7 years.
               </p>
               <p>
-                • Awarded the Army Commendation Medal for the deconstruction of
-                10+ hostile sites and recovering $3,000,000 in material costs.
+                • Awarded the Army Commendation Medal for deconstructing 10+
+                hostile sites and recovering $3,000,000 in material costs.
+              </p>
+              <p>
+                • Resolved complex administrative problems by changing
+                communication protocols to increase productivity by 50%.
               </p>
             </div>
           </div>

@@ -105,7 +105,7 @@ const Resume = props => {
                 connects with Rails API.
               </p>
               <p>
-                • Enhances understanding of how Javascript and CSS affects the
+                • Enhances understanding of how Javascript and CSS affect the
                 DOM.
               </p>
             </div>
@@ -117,7 +117,7 @@ const Resume = props => {
             <h3>Technical Skills</h3>
           </div>
           <div className="resume-area">
-            <p>JavaScript, React, Redux, Ruby, Rails, MVC, REST</p>
+            <p>JavaScript, React, Redux, Ruby on Rails, HTML, CSS, MVC, REST</p>
           </div>
         </div>
 

@@ -53,36 +53,6 @@ const Resume = props => {
 
           <div className="resume-area">
             <div className="resume-left">
-              <p>Welcome Board</p>
-              <div className="resume-quote">
-                <p>
-                  Al​lows senior students to welcome and post advice/tips for
-                  junior students at Flatiron School​.
-                </p>
-              </div>
-            </div>
-            <div className="resume-right">
-              <p>
-                • Worked with two other team members to build a React
-                application that solidifies React principles.
-              </p>
-              <p>
-                • Implements JWT, BCrypt, and localStorage to encrypt and store
-                user information client-side.
-              </p>
-              <p>
-                • Utilizes React Routes to enable users to navigate with links
-                within the web app.
-              </p>
-              <p>
-                • Applies authorization, authentication, and validation
-                protocols.
-              </p>
-            </div>
-          </div>
-
-          <div className="resume-area">
-            <div className="resume-left">
               <p>Code Code Revolution</p>
               <div className="resume-quote">
                 <p>
@@ -109,6 +79,35 @@ const Resume = props => {
                 DOM.
               </p>
             </div>
+          </div>
+        </div>
+
+        <div className="resume-area">
+          <div className="resume-left">
+            <p>Welcome Board</p>
+            <div className="resume-quote">
+              <p>
+                Al​lows senior students to welcome and post advice/tips for
+                junior students at Flatiron School​.
+              </p>
+            </div>
+          </div>
+          <div className="resume-right">
+            <p>
+              • Worked with two other team members to build a React application
+              that solidifies React principles.
+            </p>
+            <p>
+              • Implements JWT, BCrypt, and localStorage to encrypt and store
+              user information client-side.
+            </p>
+            <p>
+              • Utilizes React Routes to enable users to navigate with links
+              within the web app.
+            </p>
+            <p>
+              • Applies authorization, authentication, and validation protocols.
+            </p>
           </div>
         </div>
 

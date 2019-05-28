@@ -24,7 +24,7 @@ class ProjectsContainer extends Component {
         claps: 6
       },
       {
-        id: 2,
+        id: 3,
         title: "Welcome Board",
         teaser: "Advice Forum",
         description:
@@ -39,7 +39,7 @@ class ProjectsContainer extends Component {
         claps: 30
       },
       {
-        id: 3,
+        id: 2,
         title: "Code Code Revolution",
         teaser: "Typing Game",
         description:

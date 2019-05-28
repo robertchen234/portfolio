@@ -116,7 +116,7 @@ const Resume = props => {
             <h3>Technical Skills</h3>
           </div>
           <div className="resume-area">
-            <p>JavaScript, React, Redux, Ruby on Rails, HTML, CSS, MVC, REST</p>
+            <p>JavaScript, React, Redux, Ruby on Rails, HTML, CSS, MVC, REST, JWT, BCrypt, Netlify, Heroku</p>
           </div>
         </div>
 
@@ -214,7 +214,7 @@ const Resume = props => {
             <div className="resume-right">
               <p>
                 Full Stack Web Development Immersive Program <br />
-                (Ruby, Rails, JavaScript, React)
+                (React, Javascript, Rails, Ruby)
               </p>
             </div>
           </div>

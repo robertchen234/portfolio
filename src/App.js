@@ -18,7 +18,7 @@ class App extends Component {
   };
 
   componentDidMount() {
-    this.props.getProjects()
+    this.props.getProjects(); // poke Heroku to start waking backend up
   }
 
   changeBanner = bannerImage => {
@@ -30,13 +30,14 @@ class App extends Component {
       this.props.projects.length < 1
         ? this.props.getProjects()
         : clearInterval(interval);
-    }, 2000);
-
+    }, 1000); // fetch data every 1 second until it arrives
     return this.props.projects.length < 1 ? interval : clearInterval(interval);
   };
 
   render() {
-    this.getProjectsInterval();
+    setTimeout(() => {
+      this.getProjectsInterval();
+    }, 2000); // give Heroku 2 seconds to wake up
 
     return (
       <div>

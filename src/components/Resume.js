@@ -11,10 +11,11 @@ const Resume = props => {
           <h2>Resume</h2>
           <br />
           <p>
-            Full stack web developer who enjoys solving complicated problems
-            with simple solutions. Experience in JavaScript, React, Redux, Ruby
-            on Rails, with a background in Project Management. Proven skills in
-            team-building to increase cross-level communication.
+            Web developer with 2 years of experience who enjoys solving
+            complicated problems with simple solutions. Experience in
+            JavaScript, React, Redux, Ruby on Rails, with a background in
+            co-founding a SaaS startup. Proven skills in team-building to
+            increase cross-level communication.
           </p>
         </div>
         <div className="resume-space">
@@ -26,8 +27,8 @@ const Resume = props => {
               <p>PlayTime</p>
               <div className="resume-quote">
                 <p>
-                  Social media and events platform built to organize movie
-                  meetups that I host for local developers.
+                  Social media & events platform built to organize movie
+                  meetups for local developers.
                 </p>
               </div>
             </div>
@@ -116,7 +117,10 @@ const Resume = props => {
             <h3>Technical Skills</h3>
           </div>
           <div className="resume-area">
-            <p>JavaScript, React, Redux, Ruby on Rails, HTML, CSS, MVC, REST, JWT, BCrypt, Netlify, Heroku</p>
+            <p>
+              JavaScript, React, Redux, Ruby on Rails, HTML, CSS, MVC, REST,
+              JWT, BCrypt, Netlify, Heroku
+            </p>
           </div>
         </div>
 
@@ -131,7 +135,7 @@ const Resume = props => {
                 <p>
                   New York, NY
                   <br />
-                  Co-Founder
+                  Co-Founder & Web Developer
                   <br />
                   August 2016 - August 2018
                 </p>
@@ -143,7 +147,7 @@ const Resume = props => {
                 Javascript, CSS, and plugins driving traffic up 300%.
               </p>
               <p>
-                • Directly impact my client’s ability to bring over 60,000
+                • Directly impact the client’s ability to bring over 60,000
                 people together at a series of blockchain events through funding
                 and marketing efforts in Nigeria.
               </p>

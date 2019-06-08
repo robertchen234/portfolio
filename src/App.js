@@ -18,13 +18,9 @@ class App extends Component {
   };
 
   componentDidMount() {
-    const { getProjects } = this.props
+    const { getProjects } = this.props;
 
     getProjects(); // poke Heroku to start waking backend up
-
-    setTimeout(() => {
-      this.getProjectsInterval();
-    }, 2000); // give Heroku 2 seconds to wake up
   }
 
   changeBanner = bannerImage => {
@@ -41,6 +37,9 @@ class App extends Component {
   };
 
   render() {
+    setTimeout(() => {
+      this.getProjectsInterval();
+    }, 2000); // give Heroku 2 seconds to wake up
     return (
       <div>
         <NavBar changeBanner={this.changeBanner} />

@@ -19,11 +19,11 @@ const Footer = props => {
           <h5 className="pointer button">LinkedIn</h5>
         </a>
         <a
-          href="https://medium.com/@robertchen234"
+          href="https://dev.to/robertchen234"
           rel="noopener noreferrer"
           target="_blank"
         >
-          <h5 className="pointer button">Medium</h5>
+          <h5 className="pointer button">Blog</h5>
         </a>
         <a
           href="https://www.youtube.com/channel/UCHXw3WolW7kEZvExoA3P3VQ"

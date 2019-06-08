@@ -18,7 +18,13 @@ class App extends Component {
   };
 
   componentDidMount() {
-    this.props.getProjects(); // poke Heroku to start waking backend up
+    const { getProjects } = this.props
+
+    getProjects(); // poke Heroku to start waking backend up
+
+    setTimeout(() => {
+      this.getProjectsInterval();
+    }, 2000); // give Heroku 2 seconds to wake up
   }
 
   changeBanner = bannerImage => {
@@ -26,19 +32,15 @@ class App extends Component {
   };
 
   getProjectsInterval = () => {
+    const { projects, getProjects } = this.props;
+
     const interval = setInterval(() => {
-      this.props.projects.length < 1
-        ? this.props.getProjects()
-        : clearInterval(interval);
-    }, 1000); // fetch data every 1 second until it arrives
-    return this.props.projects.length < 1 ? interval : clearInterval(interval);
+      projects.length < 1 ? getProjects() : clearInterval(interval);
+    }, 1000); // fetch data every 1 second until data arrives
+    return projects.length < 1 ? interval : clearInterval(interval);
   };
 
   render() {
-    setTimeout(() => {
-      this.getProjectsInterval();
-    }, 2000); // give Heroku 2 seconds to wake up
-
     return (
       <div>
         <NavBar changeBanner={this.changeBanner} />

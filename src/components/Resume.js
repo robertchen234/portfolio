@@ -18,6 +18,19 @@ const Resume = props => {
             increase cross-level communication.
           </p>
         </div>
+
+        <div className="resume-space">
+          <div className="resume-header">
+            <h3>Technical Skills</h3>
+          </div>
+          <div className="resume-area">
+            <p>
+              JavaScript, React, Redux, Ruby on Rails, HTML, CSS, MVC, REST,
+              JWT, BCrypt, Netlify, Heroku, Blockstack, Radiks
+            </p>
+          </div>
+        </div>
+
         <div className="resume-space">
           <div className="resume-header">
             <h3>Technical Projects</h3>
@@ -28,26 +41,25 @@ const Resume = props => {
               <div className="resume-quote">
                 <p>
                   Social media & events platform built to organize movie
-                  meetups for local developers.
+                  meetups for local developers
                 </p>
               </div>
             </div>
             <div className="resume-right">
               <p>
-                • Solidifies React fundamentals while handling forms and passing
-                information between components.
+                • Solidifies React fundamentals while handling forms and passing information between components
               </p>
               <p>
                 • Deepens understanding and usage of asynchronous Javascript
-                from fetch requests and promises.
+                from fetch requests and promises
               </p>
               <p>
                 • Strengthens usage of JSON Web Tokens and BCrypt for
-                encryption.
+                encryption
               </p>
               <p>
                 • ​Applies Flexbox, transitions, animations, and more custom
-                CSS.
+                CSS
               </p>
             </div>
           </div>
@@ -58,26 +70,25 @@ const Resume = props => {
               <div className="resume-quote">
                 <p>
                   Tests the speed and accuracy of a user’s code typing ability
-                  while they compete with other players on the leaderboard.
+                  while they compete with other players on the leaderboard
                 </p>
               </div>
             </div>
             <div className="resume-right">
               <p>
                 • Presented this app for Playcrafting Expo at Microsoft which
-                consisted of over 2,000 attendees with a high approval rate.
+                consisted of over 2,000 attendees with a high approval rate
               </p>
               <p>
-                • Utilizes Active Model Serializers to format JSON while storing
-                and exchanging user data.
+                • Utilizes Active Model Serializers to format JSON while storing and exchanging user data
               </p>
               <p>
                 • ​Integrates blockchain authentication from BlockStack and
-                connects with Rails API.
+                connects with Rails API
               </p>
               <p>
                 • Enhances understanding of how Javascript and CSS affect the
-                DOM.
+                DOM
               </p>
             </div>
           </div>
@@ -85,41 +96,25 @@ const Resume = props => {
 
         <div className="resume-area">
           <div className="resume-left">
-            <p>Welcome Board</p>
+            <p>Chat World</p>
             <div className="resume-quote">
               <p>
-                Al​lows senior students to welcome and post advice/tips for
-                junior students at Flatiron School​.
+              Real-time message translation chat app to overcome language barriers
               </p>
             </div>
           </div>
           <div className="resume-right">
             <p>
-              • Worked with two other team members to build a React application
-              that solidifies React principles.
+              • Developed with React + Redux and cookies to better manage information
             </p>
             <p>
-              • Implements JWT, BCrypt, and localStorage to encrypt and store
-              user information client-side.
+              • Applies Google Translate API to convert texts to the users’ chosen language
             </p>
             <p>
-              • Utilizes React Routes to enable users to navigate with links
-              within the web app.
+              • Implements Blockstack authentication to encrypt and store user information
             </p>
             <p>
-              • Applies authorization, authentication, and validation protocols.
-            </p>
-          </div>
-        </div>
-
-        <div className="resume-space">
-          <div className="resume-header">
-            <h3>Technical Skills</h3>
-          </div>
-          <div className="resume-area">
-            <p>
-              JavaScript, React, Redux, Ruby on Rails, HTML, CSS, MVC, REST,
-              JWT, BCrypt, Netlify, Heroku
+              • Utilizes Radiks to enable a relational database when communicating with MongoDB
             </p>
           </div>
         </div>
@@ -144,22 +139,21 @@ const Resume = props => {
             <div className="resume-right">
               <p>
                 • Developed prototype on Squarespace, then WordPress with HTML,
-                Javascript, CSS, and plugins driving traffic up 300%.
+                Javascript, CSS, and plugins driving traffic up 300%
               </p>
               <p>
                 • Directly impact the client’s ability to bring over 60,000
-                people together at a series of blockchain events through funding
-                and marketing efforts in Nigeria.
+                people together at a series of blockchain events through funding and marketing efforts in Nigeria
               </p>
               <p>
                 • Enabled an app development team to build a crypto to Ghanaian
                 currency exchange which reduces transaction time by 3 to 5 days
-                and fees by over 10%.
+                and fees by over 10%
               </p>
               <p>
                 • Spearheaded funding and marketing for a team conversing with
                 the Government of the Philippines about blockchain technology
-                resulting in bringing thousands of Filipino citizens onboard.
+                resulting in bringing thousands of Filipino citizens onboard
               </p>
             </div>
           </div>
@@ -181,20 +175,19 @@ const Resume = props => {
               <p>
                 • Saved the company $400,000+ in three months by streamlining
                 the workflow process allowing the team to complete the project
-                three weeks ahead of schedule.
+                three weeks ahead of schedule
               </p>
               <p>
                 • Developed and formalized internal processes, including
-                training materials to support team growth. Lead recruits to 100%
-                graduation rate, which hasn't happened in 7 years.
+                training materials to support team growth. Lead recruits to 100% graduation rate, which hasn't happened in 7 years
               </p>
               <p>
                 • Awarded the Army Commendation Medal for deconstructing 10+
-                hostile sites and recovering $3,000,000 in material costs.
+                hostile sites and recovering $3,000,000 in material costs
               </p>
               <p>
                 • Resolved complex administrative problems by changing
-                communication protocols to increase productivity by 50%.
+                communication protocols to increase productivity by 50%
               </p>
             </div>
           </div>

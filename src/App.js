@@ -28,10 +28,12 @@ class App extends Component {
   };
 
   getProjectsInterval = () => {
-    const { getProjects } = this.props;
+    const { projects, getProjects } = this.props;
 
     const interval = setInterval(() => {
-      getProjects();
+      if (projects.length < 1) {
+        getProjects();
+      }
     }, 1000); // fetch data every 1 second until data arrives
 
     setTimeout(() => {

@@ -4,9 +4,9 @@ import { Link } from 'react-scroll';
 const ProjectImage = (props) => {
 	const project = props.project;
 	return (
-		<div className="project-div pointer" className="f1_container">
+		<div className="project-div pointer f1_container">
 			<Link activeClass="active" to="projects" spy={true} smooth={true} offset={253} duration={500} onClick={() => props.toggleClick(project)}>
-				<div className="flipper shadow" className="f1_card">
+				<div className="flipper shadow f1_card">
 					<div className="front face">
 						<img className="project-image" src={`/assets/${project.image_url}`} alt={project.title} />
 					</div>

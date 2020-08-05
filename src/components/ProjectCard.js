@@ -19,7 +19,8 @@ const ProjectCard = (props) => {
 						<h2 className="center">{project.title}</h2>
 						<h5 className="center teaser">{project.teaser}</h5>
 						<h6 className="center">{project.year}</h6>
-						<h1 />
+						<br />
+						<br />
 						<p>{project.description}</p>
 						<p>Technology Stack: {project.tech_stack}</p>
 						<span className="buttons">

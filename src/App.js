@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./App.css";
+import "./App.scss";
 
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
@@ -14,41 +14,16 @@ import Footer from "./components/Footer";
 
 class App extends Component {
   state = {
-    bannerImage: "bannerbio.jpg"
+    bannerImage: "bannerbio.jpg",
   };
 
-  componentDidMount() {
-    const { getProjects } = this.props;
-
-    getProjects(); // poke Heroku to start waking backend up
-  }
-
-  changeBanner = bannerImage => {
+  changeBanner = (bannerImage) => {
     this.setState({ bannerImage });
   };
 
-  getProjectsInterval = () => {
-    const { projects, getProjects } = this.props;
-
-    const interval = setInterval(() => {
-      if (projects.length < 1) {
-        getProjects();
-      }
-    }, 1000); // fetch data every 1 second until data arrives
-
-    setTimeout(() => {
-      clearInterval(interval);
-    }, 5000);
-
-    return interval;
-  };
-
   render() {
-    setTimeout(() => {
-      this.getProjectsInterval();
-    }, 2000); // give Heroku 2 seconds to wake up
     return (
-      <div>
+      <div className="appContainer">
         <NavBar changeBanner={this.changeBanner} />
         <Banner bannerImage={this.state.bannerImage} />
         <Bio />
@@ -60,15 +35,12 @@ class App extends Component {
   }
 }
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   return { projects: state.projects };
 };
 
-const mapDispatchToProps = dispatch => {
+const mapDispatchToProps = (dispatch) => {
   return { getProjects: bindActionCreators(getProjects, dispatch) };
 };
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(App);
+export default connect(mapStateToProps, mapDispatchToProps)(App);

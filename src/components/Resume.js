@@ -54,7 +54,7 @@ const Resume = (props) => {
                 TypeScript for over 600,000 machine learning experts
               </p>
               <p>• Build API with NodeJS, Express, PostgreSQL</p>
-              <p>• Maintain microservices with Python and Golang</p>
+              <p>• Maintain microservices with Python and Go</p>
             </div>
           </div>
 
